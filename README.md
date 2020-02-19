@@ -2,6 +2,14 @@
 
 A drop-in Lightning Web Component modal.
 
+## Public members
+
+ 1. `isShown`, property - Whether the modal is shown.
+ 1. `onclosed`, event - Event fired when the modal is closed.
+ 1. `closeModal()`, method - Close the modal.
+ 1. `showModal()`,  method - Show the modal.
+ 1. `toggleModal()`, method - Toggle the modal state (close/show).
+
 ## Slots
 
  1. header
@@ -9,6 +17,10 @@ A drop-in Lightning Web Component modal.
  1. footer
 
 ## Demo
+
+Click close, or press ESC Key to close the modal.
+
+![demo](./demo.gif)
 
 ## Usage
 
