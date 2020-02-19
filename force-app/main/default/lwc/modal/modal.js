@@ -3,6 +3,21 @@ import { LightningElement, api } from 'lwc'
 export default class Modal extends LightningElement {
   @api isShown = false
 
+  @api
+  closeModal () {
+    this.isShown = false
+  }
+
+  @api
+  showModal () {
+    this.isShown = true
+  }
+
+  @api
+  toggleModal () {
+    this.isShown = !this.isShown
+  }
+
   get sectionClass () {
     return 'slds-modal ' + (this.isShown ? ' slds-fade-in-open' : '')
   }
