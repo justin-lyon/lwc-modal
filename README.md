@@ -4,7 +4,8 @@ A drop-in Lightning Web Component modal.
 
 ## Public members
 
- 1. `isShown`, property - Whether the modal is shown.
+ 1. `isShown`, property, Boolean (Default: false) - Whether the modal is shown.
+ 1. `size`, property, String (Default: medium) - Accepted values: small, medium, large
  1. `onclosed`, event - Event fired when the modal is closed.
  1. `closeModal()`, method - Close the modal.
  1. `showModal()`,  method - Show the modal.
